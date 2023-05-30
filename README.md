@@ -1,5 +1,12 @@
-### Hi there 👋
+## 👋 Hello 
 
+My name is Julie. 
+
+### 👩‍🔬 My interests are in:
+- 🖥️ Data Science
+- 🔬 Forensic Science
+
+Feel free to reach out if you'd like to connect with me 😊
 <!--
 **julie-ly/julie-ly** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
