@@ -1,0 +1,758 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-text1 {
+  margin-left: 32px;
+}
+.navigation-links-text2 {
+  margin-left: 32px;
+}
+.navigation-links-text3 {
+  margin-left: 32px;
+}
+.navigation-links-text4 {
+  margin-left: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.birthday-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.birthday-navbar-container {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.birthday-navbar {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.birthday-heading {
+  color: #12212A;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Fira Sans;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.birthday-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.birthday-link {
+  color: rgb(18, 33, 42);
+  font-size: 24px;
+  font-family: Fira Sans;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.birthday-link1 {
+  color: rgb(18, 33, 42);
+  font-size: 24px;
+  font-family: Fira Sans;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.birthday-link2 {
+  color: #12212a;
+  font-size: 24px;
+  font-family: Fira Sans;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.birthday-link3 {
+  color: #12212a;
+  font-size: 24px;
+  font-family: Fira Sans;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.birthday-section-separator {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+}
+.birthday-header {
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+.birthday-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: var(--dl-color-gray-900);
+}
+.birthday-accordion-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.birthday-icon {
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+.birthday-accordion-content {
+  display: flex;
+  overflow: hidden;
+  max-height: 0;
+  transition: 0.3s ease-in-out;
+  align-items: center;
+  flex-direction: column;
+}
+.birthday-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.birthday-steps {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+}
+.birthday-text01 {
+  color: var(--dl-color-gray-black);
+  font-size: 3rem;
+  font-family: Fira Sans;
+}
+.birthday-text02 {
+  color: var(--dl-color-gray-700);
+  font-size: 1.15rem;
+  max-width: 600px;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Playfair Display;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.birthday-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.birthday-step {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.birthday-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 2px;
+  padding-right: 2px;
+  flex-direction: row;
+  justify-content: center;
+}
+.birthday-container3 {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f5f5f5ff;
+}
+.birthday-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.birthday-line {
+  flex: 1;
+  height: 0px;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: row;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.birthday-container4 {
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.birthday-text06 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.birthday-step1 {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.birthday-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 2px;
+  padding-right: 2px;
+  flex-direction: row;
+  justify-content: center;
+}
+.birthday-line1 {
+  flex: 1;
+  height: 0px;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: row;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.birthday-container6 {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f5f5f5ff;
+}
+.birthday-icon04 {
+  width: 24px;
+  height: 24px;
+}
+.birthday-container7 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.birthday-text08 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.birthday-section-separator1 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+}
+.birthday-contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.birthday-image {
+  width: 50%;
+  align-self: stretch;
+  object-fit: cover;
+}
+.birthday-container8 {
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tenunits);
+  padding-right: var(--dl-space-space-tenunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  justify-content: center;
+}
+.birthday-heading-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.birthday-text10 {
+  color: #12212A;
+  font-size: 48px;
+  font-family: Fira Sans;
+  font-weight: 900;
+  line-height: 1.22;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-transform: none;
+  text-decoration: none;
+}
+.birthday-text11 {
+  font-size: 18px;
+  font-family: Playfair Display;
+  font-weight: 600;
+  line-height: 1.55;
+  letter-spacing: 2;
+  text-transform: none;
+  text-decoration: none;
+}
+.birthday-link4 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  font-family: Fira Sans;
+  font-weight: 700;
+  line-height: 1.55;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tenunits);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-doubleunit);
+  text-transform: capitalize;
+  text-decoration: none;
+  background-color: #122E68;
+}
+.birthday-link5 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  font-family: Fira Sans;
+  font-weight: 700;
+  line-height: 1.55;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tenunits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-doubleunit);
+  text-transform: capitalize;
+  text-decoration: none;
+  background-color: #122E68;
+}
+.birthday-section-separator2 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+.birthday-footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.birthday-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.birthday-social-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.birthday-link6 {
+  display: contents;
+}
+.birthday-icon06 {
+  fill: #12212A;
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.birthday-link7 {
+  display: contents;
+}
+.birthday-image1 {
+  width: 25px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.birthday-copyright-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.birthday-icon08 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.birthday-link8 {
+  color: #12212A;
+  font-size: 16px;
+  font-family: Fira Sans;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .birthday-heading {
+    color: rgb(18, 33, 42);
+    font-size: 24px;
+    font-style: normal;
+    font-family: Fira Sans;
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .birthday-section-separator {
+    height: 100px;
+  }
+  .birthday-text {
+    font-family: Fira Sans;
+  }
+  .birthday-text01 {
+    color: rgb(18, 33, 42);
+  }
+  .birthday-text02 {
+    color: var(--dl-color-gray-700);
+    font-size: 1.15rem;
+    max-width: 80%;
+    font-family: Merriweather;
+  }
+  .birthday-container1 {
+    justify-content: center;
+  }
+  .birthday-container2 {
+    align-self: flex-start;
+  }
+  .birthday-icon02 {
+    fill: #a8dafb;
+  }
+  .birthday-container4 {
+    align-self: flex-start;
+  }
+  .birthday-text06 {
+    font-size: 1.5rem;
+    align-self: flex-start;
+    text-align: left;
+    font-family: Fira Sans;
+    font-weight: 500;
+  }
+  .birthday-text07 {
+    color: var(--dl-color-gray-500);
+    font-family: Merriweather;
+  }
+  .birthday-step1 {
+    align-items: flex-end;
+  }
+  .birthday-icon04 {
+    fill: #a8dafb;
+  }
+  .birthday-container7 {
+    align-self: flex-end;
+  }
+  .birthday-text08 {
+    font-size: 1.5rem;
+    align-self: flex-end;
+    font-family: Fira Sans;
+    font-weight: 500;
+  }
+  .birthday-text09 {
+    color: var(--dl-color-gray-500);
+    text-align: right;
+    font-family: Merriweather;
+  }
+  .birthday-section-separator1 {
+    height: 50px;
+  }
+  .birthday-text11 {
+    font-style: normal;
+    font-family: Merriweather;
+    font-weight: 400;
+  }
+  .birthday-section-separator2 {
+    background-color: var(--dl-color-gray-white);
+  }
+}
+@media(max-width: 991px) {
+  .birthday-nav {
+    padding-top: 16px;
+  }
+  .birthday-text01 {
+    text-align: center;
+  }
+  .birthday-text02 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .birthday-navbar {
+    position: relative;
+  }
+  .birthday-links-container {
+    display: none;
+  }
+  .birthday-header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .birthday-separator {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .birthday-icon {
+    display: flex;
+  }
+  .birthday-steps {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .birthday-container1 {
+    align-items: flex-start;
+    padding-left: var(--dl-space-space-fiveunits);
+    flex-direction: column;
+  }
+  .birthday-step {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .birthday-container2 {
+    width: 48px;
+    height: auto;
+    align-self: stretch;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    padding-bottom: 2px;
+    justify-content: space-between;
+  }
+  .birthday-line {
+    border-color: var(--dl-color-gray-900);
+    border-style: dashed;
+    border-top-width: 0px;
+    border-left-width: 2px;
+  }
+  .birthday-container4 {
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 32px;
+    flex-direction: column;
+    padding-bottom: 32px;
+    justify-content: space-between;
+  }
+  .birthday-text06 {
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .birthday-step1 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .birthday-container5 {
+    width: 48px;
+    height: auto;
+    align-self: stretch;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    padding-bottom: 2px;
+    justify-content: space-between;
+  }
+  .birthday-line1 {
+    border-top-width: 0px;
+    border-left-width: 2px;
+  }
+  .birthday-container7 {
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 32px;
+    flex-direction: column;
+    padding-bottom: 32px;
+    justify-content: space-between;
+  }
+  .birthday-text08 {
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .birthday-contact {
+    flex-direction: column;
+  }
+  .birthday-image {
+    width: 70%;
+  }
+  .birthday-container8 {
+    width: 100%;
+    align-items: center;
+  }
+  .birthday-heading-container {
+    width: 100%;
+  }
+  .birthday-image1 {
+    width: 70%;
+  }
+}
+@media(max-width: 479px) {
+  .birthday-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .birthday-separator {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .birthday-steps {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .birthday-container1 {
+    padding-left: 0px;
+  }
+  .birthday-container4 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: 0px;
+    padding-bottom: 32px;
+  }
+  .birthday-text06 {
+    margin-left: 0px;
+    margin-right: 32px;
+  }
+  .birthday-container7 {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: 0px;
+    padding-bottom: 32px;
+  }
+  .birthday-text08 {
+    margin-left: 0px;
+    margin-right: 32px;
+  }
+  .birthday-image {
+    width: 100%;
+  }
+  .birthday-container8 {
+    padding-left: var(--dl-space-space-tripleunit);
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+  .birthday-image1 {
+    width: 100%;
+  }
+}
